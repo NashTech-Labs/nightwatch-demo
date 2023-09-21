@@ -1,5 +1,5 @@
 module.exports = {
-    'My First Test': function (browser) {
+    'First Test': function (browser) {
       browser
         .url('https://www.google.co.in/')
         .waitForElementVisible('#APjFqb')
@@ -16,4 +16,4 @@ module.exports = {
         .end();
     }
   };
-  
+
